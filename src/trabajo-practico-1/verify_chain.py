@@ -1,3 +1,4 @@
+import os
 from common import load_blockchain, calculate_block_hash
 
 
@@ -102,7 +103,9 @@ ANALYSIS:
 
 """
 
-    with open("report.txt", "w") as f:
+    base_path = os.path.dirname(__file__)
+
+    with open(os.path.join(base_path, "report.txt"), "w") as f:
         f.write(report_content)
 
     print("📈 Report generated successfully:")

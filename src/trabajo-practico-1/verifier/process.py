@@ -1,6 +1,6 @@
 from multiprocessing import Queue
 from verifier import data_block_verifier
-from common import add_block_to_chain, save_blockchain
+from common import add_block_to_chain
 
 
 def verifier_process(queue: Queue):
