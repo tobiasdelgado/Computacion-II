@@ -1,0 +1,15 @@
+ej-10.sh
+ej-1.sh
+ej-1.txt
+ej-2.sh
+ej-3.sh
+ej-4.sh
+ej-5.sh
+ej-6.sh
+ej-7.sh
+ej-8.sh
+ej-9.sh
+enunciado.md
+errores.log
+resultado-completo.log
+sesion.log
