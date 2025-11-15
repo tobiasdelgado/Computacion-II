@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "TP2 - Scraping Distribuido",
+    "description": "Colección para testear el servidor de scraping",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Scrape Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/scrape?url=https://github.com",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["scrape"],
+          "query": [
+            {
+              "key": "url",
+              "value": "https://github.com",
+              "description": "URL a scrapear"
+            }
+          ]
+        },
+        "description": "Request al servidor A para scrapear una URL"
+      },
+      "response": []
+    }
+  ]
+}
